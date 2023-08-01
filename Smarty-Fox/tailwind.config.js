@@ -1,11 +1,10 @@
-/** @type {import('tailwindcss').Config} */
+const customDaisyUIConfig = require('./daisyui.config.js');
+
 module.exports = {
-  content: ["./src/**/*.{html,jsx}"],
+  content: ['./src/**/*.{html,jsx}'],
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui")],
-  daisyui: {
-    themes: false,
-  },
+  daisyui: customDaisyUIConfig, // Import the custom DaisyUI theme configuration
+  plugins: [require('daisyui')],
 };

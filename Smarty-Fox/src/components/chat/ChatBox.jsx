@@ -2,16 +2,14 @@ import React, { useState, useEffect, useRef } from 'react';
 import lottie from 'lottie-web';
 import sleep from '../../assets/sleep.json';
 import wake from '../../assets/wake.json';
+import sad from '../../assets/sad.json';
+import talk from '../../assets/talk.json';
 import axios from 'axios';
 
 function ChatBox({ setSecret, setFox, fox }) {
   const [messages, setMessages] = useState([]);
   const [userInput, setUserInput] = useState('');
   const messagesEndRef = useRef(null);
-
-  const sad = 'https://lottie.host/5591a607-b7ae-413f-b726-9462dd4ace86/aacfTwBOXj.json';
-
-  const talk = 'https://lottie.host/3a98a7ff-52c6-4685-8bc2-41a7ab46d19f/XcMGrFdU45.json';
 
   useEffect(() => {
     const welcomeMsg = { text: 'Hello, friend! What can I help you with?', sender: 'bot' };
@@ -57,8 +55,16 @@ function ChatBox({ setSecret, setFox, fox }) {
           newBotMessage = { text: response.data, sender: 'bot' };
         } catch (error) {
           console.error('Error requesting AI response:', error);
-          newBotMessage = { text: `Oops! Something went wrong.`, sender: 'bot' };
+          newBotMessage = { text: 'Oops! Something went wrong.', sender: 'bot' };
         }
+      }
+
+      if (newBotMessage.text === 'Oops! Something went wrong.') {
+        setFox(sad);
+      } else if (sleep) {
+        setFox(wake);
+      } else {
+        setFox(talk);
       }
 
       setMessages((prevMessages) => [...prevMessages, newUserMessage, newBotMessage]);
@@ -81,8 +87,8 @@ function ChatBox({ setSecret, setFox, fox }) {
             className={`chat ${message.sender === 'user' ? 'chat-end' : 'chat-start'}`}
           >
             <div
-              className={`chat-bubble ${message.sender === 'user' ? 'bg-red-300' : 'bg-red-300'
-                } text-2xl`}
+              className={`chat-bubble ${message.sender === 'user' ? 'bg-secondary' : 'bg-primary'
+                } text-2xl font-medium drop-shadow-lg text-neutral-200`}
             >
               {message.text}
             </div>

@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className='container max-w-full h-screen flex flex-col'>
-      <div className="navbar backdrop-filter backdrop-blur-md border-b-2">
+      <div className="navbar backdrop-filter backdrop-blur-md border-b-2 border-neutral">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -56,7 +56,7 @@ function App() {
             <img
               src={meatballMan}
               style={{width:`${grow}vh`}}
-              className={`transition-all duration-0`}
+              className={`transition-all duration-10000`}
             />
           </div>
         )}

@@ -12,7 +12,7 @@ if (!process.env.PORT) {
 const PORT = parseInt(process.env.PORT, 10);
 const app = express();
 
-const frontendOrigin = "http://localhost:5174";
+const frontendOrigin = "http://localhost:5173";
 app.use(cors({ origin: frontendOrigin }));
 
 // app.use(cors());

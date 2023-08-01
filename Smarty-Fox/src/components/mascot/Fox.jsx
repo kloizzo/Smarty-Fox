@@ -1,8 +1,8 @@
 import { Player } from '@lottiefiles/react-lottie-player';
 import lottie from "lottie-web";
-import default_fox from '../../assets/default_fox.json';
 import React, { useState, useEffect, useRef } from 'react';
 import wake from '../../assets/wake.json';
+import talk from '../../assets/talk.json';
 import normal from '../../assets/default_fox.json';
 
 function Fox({ fox, setFox }) {
@@ -10,14 +10,26 @@ function Fox({ fox, setFox }) {
   const animationRef = useRef(null);
 
   useEffect(() => {
-    if (fox !== wake) {
+    if (fox === talk) {
       animationRef.current = lottie.loadAnimation({
         container: foxMascot.current,
         renderer: 'svg',
         loop: true,
         autoplay: true,
         animationData: fox,
-        speed: 1
+        speed: 0.5
+      });
+      setTimeout(() => {
+        setFox(normal);
+      }, 8000);
+    } else if (fox !== wake) {
+      animationRef.current = lottie.loadAnimation({
+        container: foxMascot.current,
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        animationData: fox,
+        speed: 0.5
       });
     } else {
       animationRef.current = lottie.loadAnimation({
@@ -29,7 +41,7 @@ function Fox({ fox, setFox }) {
         speed: 0.5
       });
       setTimeout(() => {
-        setFox(normal);
+        setFox(talk);
       }, 1200);
 
     }

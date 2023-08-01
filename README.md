@@ -31,7 +31,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-![React][React.js] ![AdobeAA][AdobeAA] ![Express.js][Express.js] ![Node.js][Node.js] ![npm][npm] ![postcss][postcss] ![postman][postman] ![tailwind][tailwind] ![vite][vite] ![vscode][vscode] ![javascript][javascript]
+![javascript][javascript] ![React][React.js] ![vite][vite] ![tailwind][tailwind] ![Express.js][Express.js] ![Node.js][Node.js] ![npm][npm] ![postman][postman] ![vscode][vscode] ![AdobeAA][AdobeAA]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

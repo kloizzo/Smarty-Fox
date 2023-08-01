@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/kloizzo/Smarty-Fox">
-    <img src="/Smarty-Fox/src/assets/sf-logo.png" alt="Logo" height="80">
+    <img src="/Smarty-Fox/src/assets/sf-logo.png" alt="Logo" height="100">
   </a>
 
 <h3 align="center">project_title</h3>

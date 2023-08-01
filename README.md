@@ -31,7 +31,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-[![React][React.js]][React-url] [![AdobeAA][AdobeAA]]
+[![React][React.js]][React-url] [AdobeAA][AdobeAA]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

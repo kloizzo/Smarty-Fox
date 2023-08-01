@@ -19,7 +19,7 @@
 <h3 align="center">Smarty Fox</h3>
 
   <p align="center">
-    project_description
+    An AI-powered online chat platform aimed at providing valuable assistance to children with their homework and studying endeavors. By leveraging advanced artificial intelligence, it offers personalized guidance, explanations, and solutions to various academic queries, fostering a more productive and engaging learning experience.
     <br />
   </p>
 </div>
@@ -67,7 +67,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-[![React][React.js]][React-url] [![Vite][Vite.js]][Vite-url]
+[![React][React.js]][React-url] 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

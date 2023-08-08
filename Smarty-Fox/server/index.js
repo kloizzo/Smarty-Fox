@@ -1,9 +1,9 @@
+const dotenv = require("dotenv");
+dotenv.config();
+
 const express = require("express");
 const cors = require("cors");
 const { aiRouter } = require("./routes.js");
-
-const dotenv = require("dotenv");
-dotenv.config();
 
 process.env.PORT = 3000;
 if (!process.env.PORT) {

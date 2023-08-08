@@ -33,8 +33,6 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ![javascript][javascript] ![React][React.js] ![vite][vite] ![tailwind][tailwind] ![Express.js][Express.js] ![Node.js][Node.js] ![npm][npm] ![postman][postman] ![vscode][vscode] ![AdobeAA][AdobeAA]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -69,77 +67,78 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-<!-- USAGE EXAMPLES -->
+# Smarty Fox - AI-powered Online Chat Platform
+
+![GitHub](https://img.shields.io/github/license/kloizzo/Smarty-Fox)
+![GitHub repo size](https://img.shields.io/github/repo-size/kloizzo/Smarty-Fox)
+![GitHub stars](https://img.shields.io/github/stars/kloizzo/Smarty-Fox)
+![GitHub forks](https://img.shields.io/github/forks/kloizzo/Smarty-Fox)
+
+Smarty Fox is an AI-powered online chat platform designed to provide valuable assistance to children with their homework and studying endeavors. By harnessing advanced artificial intelligence, it delivers personalized guidance, explanations, and solutions to various academic queries, enhancing the learning experience.
+
+![Smarty Fox](https://github.com/kloizzo/Smarty-Fox/raw/main/screenshot.png)
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- AI-powered chatbot for academic assistance
+- Personalized guidance and explanations
+- Real-time solutions to academic queries
+- User-friendly interface
+
+## Technologies
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![OpenAI API](https://img.shields.io/badge/OpenAI%20API-1B1C1E?style=for-the-badge&logo=openai&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+## Installation
+
+To clone and run this project locally, follow these steps:
+
+1. Clone the repository using the following command:
+
+   ```bash
+   git clone https://github.com/kloizzo/Smarty-Fox.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Smarty-Fox
+   ```
+
+3. Install the project dependencies:
+
+   ```bash
+   npm install
+   ```
+
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. Start the development server:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+   ```bash
+   npm run dev
+   ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+2. Access the application in your web browser at `http://localhost:5173`.
 
+3. Interact with the AI-powered chatbot to receive personalized academic assistance.
 
+---
 
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Feel free to star ⭐️ and fork 🍴 the repository to show your support. Happy coding! 🚀
 
 
 

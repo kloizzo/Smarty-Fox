@@ -6,6 +6,7 @@
     "ai": "node ./src/components/chat/script.js",
     "dev": "vite",
     "build": "vite build --watch",
+    "server": "node server/index.js",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

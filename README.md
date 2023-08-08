@@ -51,7 +51,7 @@
 
 To clone and run this project locally, follow these steps:
 
-1. Get a free API Key at [https://example.com](https://example.com](https://openai.com/blog/openai-api))
+1. Get a free API Key at (https://openai.com/blog/openai-api))
 2. Clone the repo:
    
    ```sh

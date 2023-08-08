@@ -23,123 +23,61 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Features
 
+- AI-powered chatbot for academic assistance
+- Personalized guidance and explanations
+- Real-time solutions to academic queries
+- User-friendly interface
 
+## Technologies
 
-### Built With
-
-![javascript][javascript] ![React][React.js] ![vite][vite] ![tailwind][tailwind] ![Express.js][Express.js] ![Node.js][Node.js] ![npm][npm] ![postman][postman] ![vscode][vscode] ![AdobeAA][AdobeAA]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![OpenAI API](https://img.shields.io/badge/OpenAI%20API-1B1C1E?style=for-the-badge&logo=openai&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Express.js][Express.js]
+![Node.js][Node.js]
+![npm][npm]
+![postman][postman]
+![vscode][vscode]
+![AdobeAA][AdobeAA]
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To clone and run this project locally, follow these steps:
 
-### Prerequisites
-
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Get a free API Key at (https://openai.com/blog/openai-api)
+2. Clone the repo:
+   
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/github_username/Smarty-Fox.git
+
+3. Navigate to the project directory:
+
+   ```bash
+   cd Smarty-Fox
    ```
-3. Install NPM packages
+   
+4. Install the project dependencies:
+   
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   
+5. Navigate to the 'server' folder. Copy 'example.env', rename it '.env', and enter your API key:
+   
+   ```env
+   API_KEY = 'ENTER YOUR API';
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Feel free to star ⭐️ and fork 🍴 the repository to show your support. Happy coding! 🚀
 
 
 

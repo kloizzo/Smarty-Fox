@@ -21,7 +21,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+
+https://github.com/kloizzo/Smarty-Fox/assets/105373771/90094311-8480-4db0-87bb-99ad08f1dc2d
 
 
 ## Features

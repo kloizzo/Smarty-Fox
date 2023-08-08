@@ -23,69 +23,6 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-![javascript][javascript] ![React][React.js] ![vite][vite] ![tailwind][tailwind] ![Express.js][Express.js] ![Node.js][Node.js] ![npm][npm] ![postman][postman] ![vscode][vscode] ![AdobeAA][AdobeAA]
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-# Smarty Fox - AI-powered Online Chat Platform
-
-![GitHub](https://img.shields.io/github/license/kloizzo/Smarty-Fox)
-![GitHub repo size](https://img.shields.io/github/repo-size/kloizzo/Smarty-Fox)
-![GitHub stars](https://img.shields.io/github/stars/kloizzo/Smarty-Fox)
-![GitHub forks](https://img.shields.io/github/forks/kloizzo/Smarty-Fox)
-
-Smarty Fox is an AI-powered online chat platform designed to provide valuable assistance to children with their homework and studying endeavors. By harnessing advanced artificial intelligence, it delivers personalized guidance, explanations, and solutions to various academic queries, enhancing the learning experience.
-
-![Smarty Fox](https://github.com/kloizzo/Smarty-Fox/raw/main/screenshot.png)
-
-## Table of Contents
-
-- [Features](#features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -101,40 +38,45 @@ Smarty Fox is an AI-powered online chat platform designed to provide valuable as
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Express.js][Express.js]
+![Node.js][Node.js]
+![npm][npm]
+![postman][postman]
+![vscode][vscode]
+![AdobeAA][AdobeAA]
 
-## Installation
+
+<!-- GETTING STARTED -->
+## Getting Started
 
 To clone and run this project locally, follow these steps:
+  ```
 
-1. Clone the repository using the following command:
+### Installation
 
-   ```bash
-   git clone https://github.com/kloizzo/Smarty-Fox.git
-   ```
+1. Get a free API Key at [[https://example.com](https://example.com](https://openai.com/blog/openai-api))
+2. Clone the repo:
+   
+   ```sh
+   git clone https://github.com/github_username/Smarty-Fox.git
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 
    ```bash
    cd Smarty-Fox
    ```
-
-3. Install the project dependencies:
-
-   ```bash
+   
+4. Install the project dependencies:
+   
+   ```sh
    npm install
    ```
-
-## Usage
-
-1. Start the development server:
-
-   ```bash
-   npm run dev
+   
+5. Navigate to the 'server' folder. Copy 'example.env', rename it '.env', and enter your API key:
+   
+   ```env
+   API_KEY = 'ENTER YOUR API';
    ```
-
-2. Access the application in your web browser at `http://localhost:5173`.
-
-3. Interact with the AI-powered chatbot to receive personalized academic assistance.
 
 ---
 
